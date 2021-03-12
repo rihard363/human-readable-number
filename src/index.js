@@ -1,4 +1,4 @@
-const toReadable = (number) => {
+module.exports = function toReadable(number) {
     switch (number) {
         case 0:
             return "zero";
